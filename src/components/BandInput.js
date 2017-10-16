@@ -13,7 +13,7 @@ class BandInput extends Component {
 
         <form onSubmit={(e) => this.submit(e)}>
 
-          <input />
+          <input type='text' value={this.state.text}/>
 
           
         </form>
