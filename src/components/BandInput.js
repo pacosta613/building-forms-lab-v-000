@@ -10,6 +10,8 @@ class BandInput extends Component {
     return (
       <div>
         bands component
+
+        <form onSubmit={(e) => this.submit(e)}></form>
       </div>
     );
   }
